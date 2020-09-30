@@ -1,0 +1,3 @@
+First we can use nslookup slash16.org
+And then we use address of host from non-authoratative answer and use command 'whois 13.33.243.195'
+We found a provider - this is Amazon

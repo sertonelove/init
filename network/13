@@ -1,0 +1,2 @@
+#for OUT in $(ipconfig getifaddr en0); do nslookup $OUT | grep name | awk '{print $4}'; done
+at-l1.21-school.ru.

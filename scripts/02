@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Enter the name of the registered user : " T_USER
+if [[ $(users | grep $T_USER) != "" ]]; then
+	sudo pkill -u $T_USER; sudo userdel -f $T_USER; sudo rm -rf /home/$T_USER
+else
+	echo "This user does not exist or is not logged in"
+fi

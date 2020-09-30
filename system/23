@@ -1,0 +1,2 @@
+Graphic session : We start the OS in a virtual machine, and enter the username and password;
+Ssh session : ssh username@ipaddress, then enter the password

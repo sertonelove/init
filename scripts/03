@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function in_school_21
+{
+	HOSTNAME="$(hostname)"
+	if [[ $HOSTNAME != *.21-school.ru ]]; then
+		false
+	else
+		true
+	fi
+}
+
+if in_school_21; then
+		echo "You are at school 21"
+	else
+		echo "You are not at school 21"
+fi
